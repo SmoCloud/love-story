@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+# love-story
+
+This is a website that goes through our journey in life together.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
