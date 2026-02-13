@@ -6,11 +6,11 @@ function App() {
 	<>
 		<div>
 			<h1>Mikel & Audrey</h1>
-			<span><center>
+			<pre className="haiku">
 				Roses, they are red.
 				Beautiful like you, they are.
 				That's why I pick you.
-			</center></span>
+			</pre>
 		</div>
 		<div>
 		</div>
