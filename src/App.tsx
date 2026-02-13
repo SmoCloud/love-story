@@ -4,13 +4,13 @@ function App() {
   
   return (
 	<>
-		<div>
-			<h1>Mikel & Audrey</h1>
-			<pre className="haiku">
-				Roses, they are red.
-				Beautiful like you, they are.
-				That's why I pick you.
-			</pre>
+		<h1>Mikel & Audrey</h1>
+		<div className="haiku">
+			<h4>
+				Roses, they are red.<br />
+				Beautiful like you, they are.<br />
+				That's why I pick you.<br />
+			</h4>
 		</div>
 		<div>
 		</div>
