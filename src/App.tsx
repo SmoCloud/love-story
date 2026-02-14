@@ -1,8 +1,8 @@
 import './App.css';
-import { imagesMay24, imagesJune24, imagesJuly24, imagesAugust24, imagesNovember24, imagesDecember24 } from '../constants/Images24';
-import { imagesApril25, imagesJune25 } from '../constants/Images25';
-import { videosJune24, videosAugust24, videosOctober24 } from '../constants/Videos24';
-import { videosMarch25, videosJune25 } from '../constants/Videos25';
+import { imagesMay24, imagesJune24, imagesJuly24, imagesAugust24, imagesNovember24, imagesDecember24 } from './constants/Images24';
+import { imagesApril25, imagesJune25 } from './constants/Images25';
+import { videosJune24, videosAugust24, videosOctober24 } from './constants/Videos24';
+import { videosMarch25, videosJune25 } from './constants/Videos25';
 import { Slide } from 'react-slideshow-image';
 
 function App() {
