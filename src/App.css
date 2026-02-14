@@ -1,12 +1,37 @@
+@import 'react-slideshow-image/dist/styles.css';
+
 #root {
+  display: flex;
   flex: 1;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f5e7;
 }
 
-.logo {
+.title-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4e7c9;
+}
+
+.title {
+  color: #fa6460;
+  margin-bottom: 2rem;
+}
+
+.heart {
+  color: #fa6460;
+  font-size: 2.5rem;
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -32,16 +57,93 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
- .haiku {
+.haiku {
   justify-content: center;
   align-items: center;
+}
+
+.haiku-text {
+  color: #d70a38;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0.5rem;
+}
+
+.portraits {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 75%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 35%;
+  border: 5px solid #f4e7c9;
+}
+
+.label {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fab6ad;
+}
+
+.slide-container, .slide-container-alt {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background-color: #f4e7c9;
+}
+
+.slide-container-alt {
+  background-color: #f8f5e7;
+}
+
+.slide-month, .slide-month-alt {
+  color: #d70a38;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.slide-month-alt {
+  color: #fa6460;
+}
+
+.each-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-caption, .slide-caption-alt {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #fa6460;
+}
+
+.slide-caption-alt {
+  color: #d70a38;
+}
+
+.slide-image, .slide-image-alt {
+  width: 35%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10%;
+  border: 8px solid #f8f5e7;
+}
+
+.slide-image-alt {
+  border: 8px solid #f4e7c9;
 }
