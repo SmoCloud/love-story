@@ -169,7 +169,7 @@ const videosMarch25: Slide = {
 
 const videosJune25: Slide = {
   id: 1,
-  url: "/videos/2025/06/04/IMG_1667.MOV",
+  url: "./videos/2025/06/04/IMG_1667.MOV",
   caption: "Our Promise is Sealed in Stone",
   date: "June 4, 2025"
 };
