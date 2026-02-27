@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63baaaee7467617998677e5023ba99682ccd54311da9c473aabed12606ee9168
-size 358
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  root: '.',
+  base: './',
+  build: {
+    outDir: 'build',
+    emptyOutDir: true, // also necessary
+  },
+  plugins: [
+    react({
+      babel: {
+        plugins: [['babel-plugin-react-compiler']],
+      },
+    }),
+  ],
+})
